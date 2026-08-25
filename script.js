@@ -5,5 +5,5 @@
  * @since 2024-01-31 (Date de création)
  */
 
-"use strict"; // Interprètation stricte du code
-alert("Hello World"); // Affiche "Hello World" dans la console
+document.querySelector("h2").textContent = 20; //s'il y a la meme chose plusieur fois il va afficher le premier
+document.getElementById("compteur-el").textContent = 100; // il cherche les ID il es le plus vite
