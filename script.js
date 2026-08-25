@@ -5,5 +5,9 @@
  * @since 2024-01-31 (Date de création)
  */
 
-document.querySelector("h2").textContent = 20; //s'il y a la meme chose plusieur fois il va afficher le premier
-document.getElementById("compteur-el").textContent = 100; // il cherche les ID il es le plus vite
+
+"use strict";
+
+let compteur = 0;
+const compteurEl = document.getElementById("compteur-el");
+
